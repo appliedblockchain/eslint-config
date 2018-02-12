@@ -44,7 +44,7 @@ module.exports = {
 
   rules: {
     'no-console': off,
-    'comma-dangle': [ 1, never ],
+    'comma-dangle': [error, 'always-multiline'],
     'max-len': off,
     'no-mixed-spaces-and-tabs': error,
     'no-tabs': error,
