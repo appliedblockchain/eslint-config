@@ -43,7 +43,7 @@ module.exports = {
   },
 
   rules: {
-    'comma-dangle': [ 1, never ],
+    'comma-dangle': [ warn, never ],
     'max-len': off,
     'no-console': off,
     'no-mixed-spaces-and-tabs': error,
@@ -54,6 +54,7 @@ module.exports = {
     'object-curly-spacing': [ 0, never ],
     'quotes': [ error, single ],
     'semi': [ error, never ],
-    'space-before-function-paren': 0
+    'space-before-function-paren': [error, always],
+    'space-after-function-name': [error, always],
   }
 }
