@@ -54,7 +54,6 @@ module.exports = {
     'object-curly-spacing': [ 0, never ],
     'quotes': [ error, single ],
     'semi': [ error, never ],
-    'space-before-function-paren': [error, always],
-    'space-after-function-name': [error, always],
+    'space-before-function-paren': [ error, always ]
   }
 }
