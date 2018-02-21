@@ -36,6 +36,7 @@ module.exports = {
     it: true,
     jest: true,
     test: true,
+    xtest: true,
     navigator: true,
     process: true,
     URL: true,
