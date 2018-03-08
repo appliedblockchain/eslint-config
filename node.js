@@ -59,7 +59,7 @@ module.exports = {
     'space-before-function-paren': 0,
     'keyword-spacing': error,
     'eol-last': [ error, always ],
-    'brace-style': [ error, '1tbs' ],
+    'brace-style': [ error, '1tbs', { allowSingleLine: true } ],
     'curly': [ error, all ]
   }
 }
