@@ -1,6 +1,6 @@
 'use strict'
 
-const { error, never, always, off, single } = require('./constants')
+const { error, never, always, off, single, all } = require('./constants')
 
 module.exports = {
 
@@ -53,11 +53,13 @@ module.exports = {
     'no-undefined': off,
     'no-use-before-define': [ error, { functions: false, classes: true } ],
     'object-curly-spacing': [ error, always ],
-    'array-bracket-spacing': [ error, always, { objectsInArrays: false } ],
+    'array-bracket-spacing': [ error, always ],
     'quotes': [ error, single ],
     'semi': [ error, never ],
     'space-before-function-paren': 0,
     'keyword-spacing': error,
-    'eol-last': [ error, always ]
+    'eol-last': [ error, always ],
+    'brace-style': [ error, '1tbs' ],
+    'curly': [ error, all ]
   }
 }

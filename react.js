@@ -53,7 +53,7 @@ module.exports = {
           'componentWillUnmount'
         ]
       }
-    }],
+    } ],
     'react/jsx-pascal-case': 2,
     'react/no-did-mount-set-state': 2,
     'react/no-did-update-set-state': 2,
