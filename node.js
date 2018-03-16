@@ -22,9 +22,11 @@ module.exports = {
 
   globals: {
     after: true,
+    afterAll: true,
     afterEach: true,
     artifacts: true,
     before: true,
+    beforeAll: true,
     beforeEach: true,
     console: true,
     contract: true,
