@@ -19,17 +19,17 @@ module.exports = {
     'jsx-quotes': [ error, 'prefer-double' ],
     'react/jsx-indent': [ warn, 2 ],
     'react/jsx-indent-props': [ warn, 2 ],
-    'react/forbid-prop-types': [ error, { 'forbid': [ any ] } ],
+    'react/forbid-prop-types': [ error, { forbid: [ any ] } ],
     'react/jsx-boolean-value': [ off ],
     'react/sort-comp': [ error, {
-      'order': [
+      order: [
         'static-methods',
         'lifecycle',
         'everything-else',
         'render'
       ],
-      'groups': {
-        'lifecycle': [
+      groups: {
+        lifecycle: [
           'displayName',
           'propTypes',
           'props',
