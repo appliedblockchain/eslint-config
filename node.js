@@ -55,7 +55,7 @@ module.exports = {
     'no-tabs': error,
     'spaced-comment': [ error, always ],
     'array-callback-return': warn,
-    'eqeqeq': [ error, always ],
+    'eqeqeq': [ error, always, { null: 'ignore' } ],
     'no-else-return': [ warn, { allowElseIf: false } ],
     'no-await-in-loop': warn,
     'yoda': error,
