@@ -57,7 +57,6 @@ module.exports = {
     'array-callback-return': warn,
     'eqeqeq': [ error, always, { null: 'ignore' } ],
     'no-else-return': [ warn, { allowElseIf: false } ],
-    'no-await-in-loop': warn,
     'yoda': error,
     'no-throw-literal': error,
     'no-self-compare': error,
