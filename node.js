@@ -60,7 +60,6 @@ module.exports = {
     'yoda': error,
     'no-throw-literal': error,
     'no-self-compare': error,
-    'no-return-await': warn,
     'no-return-assign': error,
     'no-loop-func': error,
     'valid-jsdoc': warn,
