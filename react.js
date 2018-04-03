@@ -21,7 +21,7 @@ module.exports = {
     'react/jsx-indent-props': [ warn, 2 ],
     'react/forbid-prop-types': [ error, { 'forbid': [ any ] } ],
     'react/jsx-boolean-value': [ off ],
-    "react/jsx-tag-spacing": [ error, { 'beforeSelfClosing': 'always' } ],
+    'react/jsx-tag-spacing': [ error, { 'beforeSelfClosing': 'always' } ],
     'react/sort-comp': [ error, {
       'order': [
         'static-methods',
