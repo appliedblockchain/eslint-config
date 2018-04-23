@@ -77,7 +77,7 @@ module.exports = {
     'new-cap': error,
     'no-lonely-if': error,
     'no-mixed-operators': error,
-    'no-unneeded-ternary': error,
+    'no-unneeded-ternary': [ error, { defaultAssignment: false } ],
     'quote-props': [ warn, 'consistent-as-needed' ],
     'space-before-blocks': error,
     'space-in-parens': [ error, never ],
