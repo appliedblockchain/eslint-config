@@ -51,7 +51,6 @@ module.exports = {
     'keyword-spacing': error,
     'eol-last': [ error, always ],
     'brace-style': [ error, '1tbs', { allowSingleLine: true } ],
-    'curly': [ error, all ],
-    'no-console': [error, { allow: [debug, warn, error] }]
+    'curly': [ error, all ]
   }
 }

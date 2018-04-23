@@ -16,6 +16,7 @@ module.exports = {
   ],
 
   rules: {
+    'no-console': [error, { allow: [debug, warn, error] }],
     'jsx-quotes': [ error, 'prefer-double' ],
     'no-multiple-empty-lines': [ error, { max: 1 } ],
     'react/forbid-prop-types': [ error, { 'forbid': [ any ] } ],
