@@ -32,6 +32,7 @@ module.exports = {
   },
 
   rules: {
+    'no-multi-spaces': error,
     'no-useless-constructor': error,
     'space-infix-ops': error,
     'comma-dangle': [ warn, never ],
@@ -50,6 +51,7 @@ module.exports = {
     'keyword-spacing': error,
     'eol-last': [ error, always ],
     'brace-style': [ error, '1tbs', { allowSingleLine: true } ],
-    'curly': [ error, all ]
+    'curly': [ error, all ],
+    'no-console': [error, { allow: [warn, error] }]
   }
 }
