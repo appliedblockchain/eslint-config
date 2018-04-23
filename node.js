@@ -52,6 +52,6 @@ module.exports = {
     'eol-last': [ error, always ],
     'brace-style': [ error, '1tbs', { allowSingleLine: true } ],
     'curly': [ error, all ],
-    'no-console': [error, { allow: [warn, error] }]
+    'no-console': [error, { allow: [debug, warn, error] }]
   }
 }
