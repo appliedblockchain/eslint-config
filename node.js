@@ -57,7 +57,6 @@ module.exports = {
     'spaced-comment': [ error, always ],
     'array-callback-return': warn,
     'eqeqeq': [ error, always, { null: 'ignore' } ],
-    'no-else-return': [ warn, { allowElseIf: false } ],
     'yoda': error,
     'no-throw-literal': error,
     'no-self-compare': error,
