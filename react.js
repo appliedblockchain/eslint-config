@@ -1,6 +1,6 @@
 'use strict'
 
-const { warn, off, error, any, always } = require('./constants')
+const { warn, off, error, any, always, never } = require('./constants')
 
 module.exports = {
 
@@ -17,7 +17,7 @@ module.exports = {
 
   rules: {
     'jsx-quotes': [ error, 'prefer-double' ],
-    'space-before-function-paren': [ error, { 'named': always } ],
+    'space-before-function-paren': [ error, { 'named': never } ],
     'no-multiple-empty-lines': [ error, { max: 1 } ],
     'react/forbid-prop-types': [ error, { forbid: [ any ] } ],
     'react/jsx-boolean-value': [ off ],
