@@ -32,7 +32,7 @@ module.exports = {
   },
 
   rules: {
-    'no-multi-spaces': error,
+    'no-multi-spaces': [ error, { exceptions: { VariableDeclarator: true } } ],
     'no-useless-constructor': error,
     'space-infix-ops': error,
     'comma-dangle': [ warn, never ],
@@ -52,7 +52,7 @@ module.exports = {
     'eol-last': [ error, always ],
     'brace-style': [ error, '1tbs', { allowSingleLine: false } ],
     'curly': [ error, all ],
-    'block-spacing': [ error,  always ],
+    'block-spacing': [ error, always ],
     'indent': [ error, 2, { SwitchCase: 1 } ],
     'spaced-comment': [ error, always ],
     'array-callback-return': warn,
