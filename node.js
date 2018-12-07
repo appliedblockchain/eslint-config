@@ -44,7 +44,7 @@ module.exports = {
     'array-bracket-spacing': [ error, always ],
     'quotes': [ error, single ],
     'semi': [ error, never ],
-    'space-before-function-paren': off,
+    'space-before-function-paren': [ error, { anonymous: always, named: never, asyncArrow: always } ],
     'keyword-spacing': error,
     'eol-last': [ error, always ],
     'brace-style': [ error, '1tbs', { allowSingleLine: false } ],
