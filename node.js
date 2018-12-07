@@ -29,9 +29,9 @@ module.exports = {
   },
 
   rules: {
-    'arrow-body-style': [ error, 'as-needed'],
-    'arrow-parens': [ error, 'as-needed'],
-    'arrow-spacing': [ error, { 'before': true, 'after': true }],
+    'arrow-body-style': [ error, 'as-needed' ],
+    'arrow-parens': [ error, 'as-needed' ],
+    'arrow-spacing': [ error, { before: true, after: true } ],
     'no-multi-spaces': error,
     'no-useless-constructor': error,
     'space-infix-ops': error,
@@ -47,8 +47,8 @@ module.exports = {
     'array-bracket-spacing': [ error, always ],
     'quotes': [ error, single ],
     'semi': [ error, never ],
-    'space-before-function-paren': off,
-    'keyword-spacing': [ error, { 'before': true, 'after': true }],
+    'space-before-function-paren': [ error, { anonymous: always, named: never, asyncArrow: always } ],
+    'keyword-spacing': [ error, { before: true, after: true } ],
     'eol-last': [ error, always ],
     'brace-style': [ error, '1tbs', { allowSingleLine: false } ],
     'curly': [ error, all ],
