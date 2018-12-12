@@ -51,7 +51,7 @@ module.exports = {
     'curly': [ error, all ],
     'block-spacing': [ error,  always ],
     'indent': [ error, 2, { SwitchCase: 1 } ],
-    'spaced-comment': [ error, always ],
+    'spaced-comment': [ error, always, { "markers": [ ":", "::" ] } ],
     'array-callback-return': warn,
     'eqeqeq': [ error, always, { null: 'ignore' } ],
     'yoda': error,
