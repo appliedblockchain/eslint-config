@@ -54,7 +54,7 @@ module.exports = {
     'spaced-comment': [ error, always, { "markers": [ ":", "::" ] } ],
     'array-callback-return': warn,
     'eqeqeq': [ error, always, { null: 'ignore' } ],
-    'yoda': error,
+    'yoda': [ error, never, { exceptRange: true } ],
     'no-throw-literal': error,
     'no-self-compare': error,
     'no-return-assign': error,
