@@ -60,6 +60,7 @@ module.exports = {
     'no-path-concat': error,
     'no-return-assign': error,
     'no-self-compare': error,
+    'no-shadow': error,
     'no-tabs': error,
     'no-throw-literal': error,
     'no-trailing-spaces': error,
