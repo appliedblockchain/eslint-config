@@ -57,7 +57,7 @@ module.exports = {
     'no-mixed-spaces-and-tabs': error,
     'no-multi-spaces': error,
     'no-new-require': error,
-    'no-param-reassign': [ error, { props: true } ],
+    'no-param-reassign': [ error, { props: false } ],
     'no-path-concat': error,
     'no-return-assign': error,
     'no-self-compare': error,
