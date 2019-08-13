@@ -12,13 +12,16 @@ module.exports = {
   parser: 'babel-eslint',
 
   plugins: [
-    'react'
+    'react',
+    'react-hooks'
   ],
 
   rules: {
     'jsx-quotes': [ error, 'prefer-double' ],   
     'react/forbid-prop-types': [ error, { forbid: [ any ] } ],
     'no-multiple-empty-lines': [ error, { max: 1 } ],
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
     'react/jsx-boolean-value': [ off ],
     'react/jsx-indent': [ warn, 2 ],
     'react/jsx-indent-props': [ warn, 2 ],
