@@ -4,12 +4,13 @@
   "description": "Eslint config for appliedblockchain",
   "main": "node.js",
   "scripts": {
+    "test": "npm run lint",
     "lint": "eslint -c node.js .",
     "lint:ci": "eslint -c node.js --format junit -o reports/junit/eslint-results.xml"
   },
   "repository": "appliedblockchain/eslint-config",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 7"
   },
   "keywords": [
     "eslint",
@@ -24,10 +25,10 @@
   },
   "homepage": "https://github.com/appliedblockchain/eslint-config#readme",
   "devDependencies": {
-    "eslint": "^5.13.0"
+    "eslint": "^7.25.0"
   },
   "dependencies": {
-    "babel-eslint": "^10.0.1",
+    "@babel/eslint-parser": "^7.13.14",
     "eslint-plugin-react": "^7.10.0"
   }
 }

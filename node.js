@@ -31,7 +31,7 @@ module.exports = {
   rules: {
     'array-bracket-spacing': [ error, always ],
     'array-callback-return': warn,
-    'block-spacing': [ error,  always ],
+    'block-spacing': [ error, always ],
     'brace-style': [ error, '1tbs', { allowSingleLine: false } ],
     'comma-dangle': [ warn, never ],
     'comma-spacing': error,
@@ -80,7 +80,7 @@ module.exports = {
     'space-in-parens': [ error, never ],
     'space-infix-ops': error,
     'space-unary-ops': error,
-    'spaced-comment': [ error, always, { "markers": [ ":", "::" ] } ],
+    'spaced-comment': [ error, always, { 'markers': [ '/', ':', '::' ] } ],
     'yoda': [ error, never, { exceptRange: true } ]
   }
 }
