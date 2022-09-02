@@ -14,10 +14,7 @@ module.exports = {
   },
 
   plugins: [
-    '@typescript-eslint',
-    'jsdoc',
-    'no-null',
-    'import'
+    '@typescript-eslint'
   ],
 
   overrides: [
@@ -142,16 +139,6 @@ module.exports = {
     '@typescript-eslint/triple-slash-reference': 'error',
     '@typescript-eslint/type-annotation-spacing': 'error',
     '@typescript-eslint/unified-signatures': 'error',
-
-
-    // eslint-plugin-import
-    'import/no-extraneous-dependencies': [
-      'error',
-      { optionalDependencies: false },
-    ],
-
-    // eslint-plugin-no-null
-    'no-null/no-null': 'error',
 
     // eslint
     'constructor-super': 'error',
